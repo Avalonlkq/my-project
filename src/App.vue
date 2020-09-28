@@ -1,7 +1,7 @@
 <!-- 展示模板 -->
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <img src="./assets/Jim.jpg">
     <hello></hello>
   </div>
 </template>
