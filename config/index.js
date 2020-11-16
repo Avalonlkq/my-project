@@ -10,7 +10,17 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    proxyTable: {},
+    proxyTable: {
+      '/latest': {
+        target: "https://esi.evepc.163.com",
+        secure: true,
+        chunkOrigins: true,// 允许跨域
+        changeOrigin: true,
+        pathRewrite: {
+          '^/latest': '/latest' // 路径重写，使用"/latest"代替target.
+        }
+      }
+    },
 
     // Various Dev Server settings
     host: '192.168.184.128', // can be overwritten by process.env.HOST

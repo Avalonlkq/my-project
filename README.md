@@ -30,4 +30,23 @@ npm test
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 V0.1 Cage Lee create the project for HelloWorld. ---likq
-V0.2 Add SFTP plugins
+V0.2 Add SFTP plugins --- ctrl+shift+p + 'SFTP:Config'
+e.g.
+{
+    "name": "My Server",
+    "host": "120.55.39.108",
+    "protocol": "sftp",
+    "port": 22,
+    "username": "root",
+    "password":"123456lkq..",
+    "remotePath": "/root/build/my-project",
+    "ignore": [
+        "**/.vscode/**"
+    ],
+    "uploadOnSave": true,
+    "watcher": {
+        "files": "*",
+        "autoUpload": false,
+        "autoDelete": false
+    }
+}

@@ -1,16 +1,19 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1>{{ msg | capitalize }}</h1>
+    <pre><a :href="url">EVE Api</a></pre>
   </div>
 </template>
  
 <script>
 export default {
-  name: 'hello',
-  data () {
+  name: "hello",
+  data() {
     return {
-      msg: 'Jim邮箱爆破计划！'
-    }
-  }
-}
+      msg: "jim MK II",
+      url: "https://esi.evepc.163.com/",
+      info: null,
+    };
+  },
+};
 </script>
