@@ -1,0 +1,139 @@
+{
+  "tid": "376",
+  "name": "个人信息查询服务",
+  "title": "个人信息查询",
+  "pid": "0",
+  "tp": "svc",
+  "children": [
+    {
+      "tid": "22",
+      "name": "门诊电子病历",
+      "title": "门诊电子病历",
+      "pid": "376",
+      "tp": "client",
+      "children": []
+    },
+    {
+      "tid": "13",
+      "name": "HIS系统",
+      "title": "HIS系统",
+      "pid": "376",
+      "tp": "client",
+      "children": []
+    },
+    {
+      "tid": "30",
+      "name": "合理用药系统",
+      "title": "合理用药系统",
+      "pid": "376",
+      "tp": "client",
+      "children": []
+    },
+    {
+      "tid": "17",
+      "name": "移动护理系统",
+      "title": "移动护理系统",
+      "pid": "376",
+      "tp": "client",
+      "children": []
+    },
+    {
+      "tid": "14",
+      "name": "LIS系统",
+      "title": "LIS系统",
+      "pid": "376",
+      "tp": "client",
+      "children": []
+    },
+    {
+      "tid": "15",
+      "name": "PACS系统",
+      "title": "PACS系统",
+      "pid": "376",
+      "tp": "client",
+      "children": []
+    },
+    {
+      "tid": "16",
+      "name": "手术麻醉系统",
+      "title": "手术麻醉系统",
+      "pid": "376",
+      "tp": "client",
+      "children": []
+    },
+    {
+      "tid": "26",
+      "name": "无线输液",
+      "title": "无线输液",
+      "pid": "376",
+      "tp": "client",
+      "children": []
+    },
+    {
+      "tid": "24",
+      "name": "病理系统",
+      "title": "病理系统",
+      "pid": "376",
+      "tp": "client",
+      "children": []
+    },
+    {
+      "tid": "25",
+      "name": "内镜系统",
+      "title": "内镜系统",
+      "pid": "376",
+      "tp": "client",
+      "children": []
+    },
+    {
+      "tid": "33",
+      "name": "体检系统",
+      "title": "体检系统",
+      "pid": "376",
+      "tp": "client",
+      "children": []
+    },
+    {
+      "tid": "38",
+      "name": "输血系统",
+      "title": "输血系统",
+      "pid": "376",
+      "tp": "client",
+      "children": [
+        {
+          "tid": "2",
+          "name": "互联互通标准服务",
+          "title": "互联互通标准",
+          "pid": "38",
+          "tp": "client",
+          "children": []
+        }
+      ]
+    },
+    {
+      "tid": "52",
+      "name": "门诊叫号系统",
+      "title": "门诊叫号系统",
+      "pid": "376",
+      "tp": "client",
+      "children": [
+        {
+          "tid": "2",
+          "name": "互联互通标准服务",
+          "title": "互联互通标准",
+          "pid": "52",
+          "tp": "client",
+          "children": []
+        }
+      ]
+    },
+    {
+      "tid": "32",
+      "name": "心电系统",
+      "title": "心电系统",
+      "pid": "376",
+      "tp": "client",
+      "children": []
+    }
+  ]
+}
