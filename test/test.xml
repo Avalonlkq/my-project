@@ -1,4 +1,4 @@
 SELECT * FROM LKQTEST
 where 1=1
 <if test="id  !='' ">AND str1 = #{id}</if>
-<if test="id2 != '' ">AND str2 IN ${id2}</if>
+<if test="id2 != '' ">AND str2 IN ${id2333}</if>
